@@ -46,5 +46,5 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.Johnny1212 }}
       run: |
         docker build -t johnny123321/flask-docker-app:latest .
-        echo $Johnny1212 | docker login -u $johnny123321 --password-stdin
+        echo Johnny1212 | docker login -u johnny123321 --password-stdin
         docker push johnny123321/flask-docker-app:latest
